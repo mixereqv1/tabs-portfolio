@@ -14,6 +14,7 @@ body {
 
 .tabs {
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   padding-top: 1em;
   font-weight: 700;
@@ -89,6 +90,7 @@ body {
 .content__tabs__home {
   color: #fff;
   text-shadow: 2px 2px 2px #000;
+  text-align: center;
 }
 
 .content__tabs__home span {
@@ -98,7 +100,6 @@ body {
 .content__tabs__home p {
   margin-top: 5px;
   border-top: 2px solid #fff;
-  text-align: center;
 }
 
 .content__tabs .title {
@@ -167,6 +168,19 @@ body {
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
+}
+
+@media screen and (max-width: 700px) {
+  .content {
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .content__tabs .tech__item__img {
+    width: 100%;
+    height: 80%;
+  }
 }
 
 .slider {
