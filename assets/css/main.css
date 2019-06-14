@@ -168,15 +168,23 @@ body {
 }
 
 @media screen and (max-width: 700px) {
+  body {
+    height: auto;
+  }
   .content {
     width: 80%;
+    min-height: 600px;
+    height: auto;
   }
-}
-
-@media screen and (max-width: 480px) {
-  .content__tabs .tech__item__img {
-    width: 100%;
-    height: 80%;
+  .content__tabs {
+    min-height: 600px;
+  }
+  .content .tech__item {
+    width: 80%;
+    height: 150px;
+  }
+  .reg__login, .bmi__calc, .grid__form, .todo, .rps {
+    background-position: center !important;
   }
 }
 
