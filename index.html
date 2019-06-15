@@ -2,13 +2,15 @@
 <html lang="pl">
 
     <head>
+        <!-- META TAGS -->
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
         <meta name="msapplication-TileColor" content="#da532c">
-        <meta name="msapplication-config" content="/assets/img/favicons/browserconfig.xml">
+        <meta name="msapplication-config" content="assets/img/favicons/browserconfig.xml">
         <meta name="theme-color" content="#ffffff">
 
+        <!-- LINKS -->
         <link rel="stylesheet" href="assets/css/main.min.css">
         <link href="https://fonts.googleapis.com/css?family=Lato:400,700&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.css" />
@@ -25,13 +27,24 @@
     </head>
 
     <body>
+        <!-- LOADING OVERLAY -->
+        <div class="loader-wrapper">
+            <div class="loader"></div>
+            <div class="loader-section section-left"></div>
+            <div class="loader-section section-right"></div>
+        </div>
+        <!-- END OF LOADING OVERLAY -->
 
+        <!-- HEADER -->
         <header class="tabs animated bounceInDown">
             <div class="tabs__button tabs__button__active">Home</div>
             <div class="tabs__button">Projekty</div>
             <div class="tabs__button">Technologie</div>
             <div class="tabs__button">Kontakt</div>
         </header>
+        <!-- END HEADER -->
+
+        <!-- MAIN -->
         <main class="content animated bounceInLeft">
             <div class="content__tabs content__tabs__active">
                 <h1 class="content__tabs__home">
@@ -99,6 +112,7 @@
                 </div>
             </div>
         </main>
+        <!-- END MAIN -->
 
         <script src="assets/js/main.js"></script>
     </body>

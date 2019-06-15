@@ -15,3 +15,9 @@ const Tabs = {
     }
 }
 Tabs.init();
+
+window.onload = function() {
+    setTimeout(function() {
+        document.querySelector('body').classList.add('loaded');
+    },1000);
+}
