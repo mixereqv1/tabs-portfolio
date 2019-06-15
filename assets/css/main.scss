@@ -226,15 +226,24 @@ body {
         &__home {
             color: #fff;
             text-shadow: 2px 2px 2px #000;
-            text-align: center;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
 
-            span {
-                color: #5b91e5;
+            .full__width {
+                text-align: center;
+                border-bottom: 2px solid #fff;
+                padding-bottom: 5px;
+
+                .colored {
+                    color: #5b91e5;
+                }
             }
 
-            p {
+            .initials {
+                text-align: center;
                 margin-top: 5px;
-                border-top: 2px solid #fff;
+                width: 100%;
             }
         }
 
