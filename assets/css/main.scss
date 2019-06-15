@@ -58,8 +58,9 @@ body{
     height: 600px;
     margin: 5em auto;
     border-radius: 5px;
-    box-shadow: 0 0 0 8px rgba(#000, .5);
+    box-shadow: 0 0 0 8px rgba(#5b91e5, .5);
     padding: 20px;
+    background: rgba(#000, .5);
 
     &__tabs {
         display: none;
@@ -189,7 +190,8 @@ body{
 	overflow: hidden;
 	position: relative;
 	text-align: center;
-	line-height: 240px;
+    line-height: 240px;
+    border-radius: 15px;
 }
 .slider > .radio {
 	display: none;
