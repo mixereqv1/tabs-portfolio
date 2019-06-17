@@ -309,7 +309,7 @@ body {
 }
 
 .animated {
-  animation-delay: 1.5s;
+  animation-delay: 2s;
 }
 
 @media screen and (max-width: 700px) {
@@ -318,11 +318,10 @@ body {
   }
   .content {
     width: 80%;
-    min-height: 600px;
     height: auto;
   }
   .content__tabs {
-    min-height: 600px;
+    min-height: 60vh;
   }
   .content .tech__item {
     width: 80%;

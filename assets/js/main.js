@@ -21,5 +21,5 @@ window.onload = function() {
         document.querySelectorAll('.content__tabs')[3].classList.remove('content__tabs__active');
         document.querySelectorAll('.content__tabs')[0].classList.add('content__tabs__active');
         document.querySelector('body').classList.add('loaded');
-    },1000);
+    },1500);
 }
